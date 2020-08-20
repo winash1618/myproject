@@ -1,0 +1,131 @@
+Last update : 2/7/1996 by
+Dirk C. Mattfeld (email dirk@uni-bremen.de) and 
+Rob J.M. Vaessens (email robv@win.tue.nl).
+ 
+ONLY PERMUTATION SCHEDULES ALLOWED
+
+ta001-005        1278    |     1359    |     1081    |     1293    |     1235
+ 20 x  5     Va    Ta    | Va    Ta    | Va    Ta    | Va    Ta    | Va    Ta
+ta006-010        1195    |     1234    |     1206    |     1230    |     1108
+ 20 x  5     Va    Ta    | Va    Va    | Va    Ta    | Va    Ta    | Va    Ta
+-------------------------|-------------|-------------|-------------|------------
+ta011-015        1582    |     1659    |     1496    |     1377    |     1419
+ 20 x 10     Va    Ta    | Va    Ta    | Va    Ta    | Va    Ta    | Va    Ta
+ta016-020        1397    |     1484    |     1538    |     1593    |     1591
+ 20 x 10     Va    Ta    | Va    Ta    | Va    Ta    | Va    Ta    | Va    Ta
+-------------------------|-------------|-------------|-------------|------------
+ta021-025        2297    |     2099    |     2326    |     2223    |     2291
+ 20 x 20     Va    Ta    | Va    Ta    | Va    Ta    | Va    Ta    | Va    Ta
+ta026-030        2226    |     2273    |     2200    |     2237    |     2178
+ 20 x 20     Va    Ta    | Va    Ta    | Va    Ta    | Va    Ta    | Va    Ta
+-------------------------|-------------|-------------|-------------|------------
+ta031-035        2724    |     2834    |     2621    |     2751    |     2863
+ 50 x  5     Va    Ta    | Va    NS    | Va    Ta    | Va    Ta    | Va    Ta
+ta036-040        2829    |     2725    |     2683    |     2552    |     2782
+ 50 x  5     Va    Ta    | Va    Ta    | Va    Ta    | Va    NS    | Va    Ta
+-------------------------|-------------|-------------|-------------|------------
+ta041-045        2991    |     2867    |     2839    |     3063    |     2976
+ 50 x 10     Va    Va    | Va    Va    | Va    Va    | Va    Va    | Va    Va
+ta046-050        3006    |     3093    |     3037    |     2897    |     3065
+ 50 x 10     Va    NS    | Va    Va    | Va    Va    | Va    Va    | Va    Va
+-------------------------|-------------|-------------|-------------|------------
+ta051-055     3771- 3856 |  3668- 3707 |  3591- 3643 |  3635- 3731 |  3553- 3619
+ 50 x 20     Va    NS2   | Va    VaNS3 | Va    VaNS2 | Va    Va    | Va    NS2
+ta056-060     3667- 3687 |  3672- 3706 |  3627- 3700 |  3645- 3755 |  3696- 3767
+ 50 x 20     Va    Va    | Va    VaNS2 | Va    NS2   | Va    VaNS2 | Va    NS2
+-------------------------|-------------|-------------|-------------|------------
+ta061-065        5493    |     5268    |     5175    |     5014    |     5250
+100 x  5     Va    Ta    | Va    NS    | Va    Ta    | Va    NS    | Va    Ta
+ta066-070        5135    |     5246    |     5094    |     5448    |     5322
+100 x  5     Va    Ta    | Va    NS    | Va    Ta    | Va    Ta    | Va    Va
+-------------------------|-------------|-------------|-------------|------------
+ta071-075        5770    |     5349    |     5676    |     5781    |     5467
+100 x 10     Va    NS    | Va    NS    | Va    Va    | Va    Va    | Va    Va
+ta076-080        5303    |     5595    |     5617    |     5871    |     5845
+100 x 10     Va    NS    | Va    Va    | Va    Va    | Va    Va    | Va    NS
+-------------------------|-------------|-------------|-------------|------------
+ta081-085     6106- 6228 |  6183- 6210 |  6252- 6271 |  6254- 6269 |  6262- 6319
+100 x 20     Va    VaNS2 | Va    NS2   | Va    VaNS2 | Va    VaNS2 | Va    VaNS2
+ta086-090     6302- 6403 |  6184- 6292 |  6315- 6423 |  6204- 6275 |  6404- 6434
+100 x 20     Va    VaNS2 | Va    VaNS2 | Va    NS2   | Va    VaNS2 | Va    VaNS2
+-------------------------|-------------|-------------|-------------|------------
+ta091-095       10862    |    10480    |    10922    |    10889    |    10524
+200 x 10     Va    Va    | Va    Va    | Va    NS    | Va    NS    | Va    NS
+ta096-100       10329    |    10854    |    10730    |    10438    |    10675
+200 x 10     Va    Va    | Va    Va    | Va    Va    | Va    NS    | Va    Va
+-------------------------|-------------|-------------|-------------|------------
+ta101-105    11152-11195 | 11143-11223 | 11281-11337 | 11275-11299 | 11259-11260
+200 x 20     Va    VaNS2 | Va    VaNS2 | Va    VaNS2 | Va    VaNS2 | Va    VaNS2
+ta106-110    11176-11189 | 11337-11386 | 11301-11334 | 11145-11192 | 11284-11313
+200 x 20     Va    VaNS2 | Va    VaNS2 | Va    VaNS2 | Va    VaNS2 | Va    NS2
+-------------------------|-------------|-------------|-------------|------------
+ta111-115    26040-26059 | 26500-26520 |    26371    |    26456    |    26334
+500 x 20     Va    VaNS3 | Va    Va    | Va    Va    | Va    Va    | Va    Va
+ta116-120    26469-26477 |    26389    |    26560    |    26005    |    26457
+500 x 20     Va    Va    | Va    Va    | Va    Va    | Va    Va    | Va    Va
+
+Ta:
+ E. Taillard (1993),
+ Benchmarks for basic scheduling problems,
+ EJOR 64, 278-285.
+
+NS:
+ E. Nowicki, C. Smutnicki (1996), 
+ A fast tabu search algorithm for the flow shop problem, 
+ EJOR 91, 160-175.
+
+NS2:
+ E. Nowicki, C. Smutnicki (1996), 
+ Permutation flow shop scheduling. Benchmarks results,
+ Report PRE 15/96,
+ Institute of Engineering Cybernetics, Technical University of Wroclaw,
+ Wroclaw, Poland.
+
+NS3:
+ E. Nowicki, C. Smutnicki (1996), 
+ Personal communication.
+
+Va:
+ R.J.M. Vaessens (1995),
+ Personal communication.
+ (permutation flow shop bound found by branch and bound technique)
+
+Va2:
+ R.J.M. Vaessens (1995),
+ Personal communication.
+ (partial non-permutation schedule found by hand; schedule for remaining jobs
+  found by branch and bound)
+
+VaNS2:
+ R.J.M. Vaessens (1996),
+ Personal communication.
+ (permutation flow shop bound found by branch and bound technique with initial
+  solution of NS2)
+
+VaNS3:
+ R.J.M. Vaessens (1996),
+ Personal communication.
+ (permutation flow shop bound found by branch and bound technique with initial
+  solution of NS3)
+
+VA:
+ R.J.M. Vaessens (1995),
+ Personal communication.
+ (lower and upper bound found using Applegate & Cook's algorithm `edge-finder')
+
+VAV:
+ R.J.M. Vaessens (1995),
+ Personal communication.
+ (upper bound found using Applegate & Cook's algorithm `shuffle' with 
+  initial solution of Va) 
+
+VAV2:
+ R.J.M. Vaessens (1995),
+ Personal communication.
+ (upper bound found using Applegate & Cook's algorithm `edge-finder' on
+  partial solution abstracted from initial solution of Va) 
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+

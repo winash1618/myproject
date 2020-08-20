@@ -1,0 +1,59 @@
+ ans  =
+
+   1.
+
+
+--> phi=(5^(1/2)+1)/2
+ phi  = 
+
+   1.618034
+
+
+--> psi=(5^(1/2)-1)/2
+ psi  = 
+
+   0.618034
+
+
+--> 1/phi
+ ans  =
+
+   0.618034
+
+
+--> 1/psi
+ ans  =
+
+   1.618034
+
+
+--> 5.2*%i
+ ans  =
+
+   5.2i 
+
+
+--> %pi
+ %pi  = 
+
+   3.1415927
+
+
+--> sin(%pi/2
+sin(%pi/2
+        ^^
+Error: syntax error, unexpected end of file, expecting "," or )
+
+--> sin(%pi/2)
+ ans  =
+
+   1.
+
+
+--> %eps
+ %eps  = 
+
+   2.220D-16
+
+
+--> diary(0)
